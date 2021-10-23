@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainController">
+   <children>
+      <AnchorPane prefHeight="800.0" prefWidth="800.0" style="-fx-border-color: black; -fx-background-color: white;">
+         <children>
+            <Label alignment="CENTER" layoutX="307.0" layoutY="127.0" prefHeight="105.0" prefWidth="261.0" text="Royal Conflict">
+               <font>
+                  <Font name="Imprint MT Shadow" size="40.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="#403838" />
+                        <Stop color="BLACK" offset="0.007662835249042145" />
+                        <Stop color="BLACK" offset="0.9961685823754789" />
+                        <Stop color="BLACK" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Label>
+            <Button fx:id="rulesButton" layoutX="138.0" layoutY="500.0" mnemonicParsing="false" onAction="#rules" prefHeight="125.0" prefWidth="213.0" style="-fx-background-color: red;" text="Rules">
+               <font>
+                  <Font name="Freestyle Script" size="50.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="#403838" />
+                        <Stop color="BLACK" offset="0.007662835249042145" />
+                        <Stop color="BLACK" offset="0.9961685823754789" />
+                        <Stop color="BLACK" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Button>
+            <Button fx:id="playButton" layoutX="437.0" layoutY="500.0" mnemonicParsing="false" onAction="#play" prefHeight="125.0" prefWidth="213.0" style="-fx-background-color: red;" text="Play">
+               <font>
+                  <Font name="Freestyle Script" size="50.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="#403838" />
+                        <Stop color="BLACK" offset="0.007662835249042145" />
+                        <Stop color="BLACK" offset="0.9961685823754789" />
+                        <Stop color="BLACK" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Button>
+            <Button fx:id="creditsButton" layoutX="658.0" layoutY="717.0" mnemonicParsing="false" onAction="#credits" prefHeight="69.0" prefWidth="128.0" style="-fx-background-color: white;" text="Credits" underline="true">
+               <font>
+                  <Font name="Freestyle Script" size="38.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="BLACK" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

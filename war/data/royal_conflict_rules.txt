@@ -1,0 +1,5 @@
+1. Each player gets dealt 26 cards(half of a standard 52-card deck). The player's cards will be face-down in a stack in front of the player.
+2. Both players turn over the top card of their stack. The card with the highest value wins. The winning player will take both cards and put them into a new stack near them.
+3. If the cards are the same rank, there is a "war". Both players will draw 3 more cards and put them face-down on the table. Then the players draw one additional card. The player whose additional card is higher will take all 10 cards to their stack. Wars can be reoccuring if a war results in a tie.
+4. The player who first loses all of their cards(both their hand and stack) loses.
+5. If a player does not have sufficient cards to "go to war," that player loses immediately.

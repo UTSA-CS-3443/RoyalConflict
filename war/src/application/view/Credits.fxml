@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.CreditsController">
+   <children>
+      <AnchorPane prefHeight="800.0" prefWidth="800.0" style="-fx-border-color: black; -fx-background-color: white;">
+         <children>
+            <Label alignment="CENTER" layoutX="266.0" layoutY="174.0" prefHeight="124.0" prefWidth="270.0" text="Team rEach4help">
+               <font>
+                  <Font name="Brush Script MT Italic" size="44.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="BLACK" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Label>
+            <Label fx:id="creditsLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="191.0" layoutY="275.0" prefHeight="346.0" prefWidth="419.0" text="label" textAlignment="CENTER">
+               <font>
+                  <Font name="Times New Roman" size="30.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="BLACK" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Label>
+            <Button fx:id="menuButton" layoutX="611.0" layoutY="14.0" mnemonicParsing="false" onAction="#menu" prefHeight="87.0" prefWidth="175.0" style="-fx-background-color: red;" text="Menu">
+               <font>
+                  <Font name="Freestyle Script" size="40.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="BLACK" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Button>
+            <Label alignment="CENTER" layoutX="265.0" layoutY="695.0" prefHeight="69.0" prefWidth="306.0" text="Thanks for playing!" textFill="#c71ea9">
+               <font>
+                  <Font name="Comic Sans MS" size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

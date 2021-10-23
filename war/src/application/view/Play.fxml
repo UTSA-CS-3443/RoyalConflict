@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.PlayController">
+   <children>
+      <AnchorPane prefHeight="800.0" prefWidth="800.0" style="-fx-border-color: black; -fx-background-color: white;">
+         <children>
+            <Button fx:id="menuButton" layoutX="611.0" layoutY="14.0" mnemonicParsing="false" onAction="#menu" prefHeight="87.0" prefWidth="175.0" style="-fx-background-color: red;" text="Menu">
+               <font>
+                  <Font name="Freestyle Script" size="40.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="BLACK" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Button>
+            <Label fx:id="titleLabel" alignment="CENTER" layoutX="286.0" layoutY="11.0" prefHeight="99.0" prefWidth="202.0" text="Royal Conflict">
+               <font>
+                  <Font name="Imprint MT Shadow" size="30.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="BLACK" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
