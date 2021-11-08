@@ -37,6 +37,15 @@ public class Card {
 		String[] suits = {"Clubs", "Diamonds", "Hearts", "Spades"};
 		return ranks[this.rank] + " of " + suits[this.suit];
 		}
+	/*getCardImageName() returns the card image name as a string
+	 * @return: String
+	 */
+	public String getCardImageName() {
+		String[] ranks = {null, "ace", "2", "3", "4", "5", "6",
+				"7", "8", "9", "10", "jack", "queen", "king" };
+		String[] suits = {"clubs", "diamonds", "hearts", "spades"};
+		return ranks[this.rank] + "_of_" + suits[this.suit] + ".png";
+		}
 	/*equals() returns a boolean denoting if two cards were equal or not
 	 * @return: boolean, 1 if the cards were equal, 0 if the cards were not equal
 	 */

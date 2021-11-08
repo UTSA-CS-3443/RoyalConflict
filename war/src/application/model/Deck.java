@@ -27,6 +27,18 @@ public class Deck {
 		}
 		Collections.shuffle(this.deck);
 	}
+	/*refill() refills the deck with 52 standard  cards
+	 *Shuffle the cards
+	 */
+	public void refill() {
+		for(int suit = 0; suit <= 3; suit++) {
+			for(int rank = 1; rank <= 13; rank++) {
+				Card new1 = new Card(rank, suit);
+				this.deck.add(new1);
+			}
+		}
+		Collections.shuffle(this.deck);
+	}
 	/*deal() returns a sublist of the deck array
 	 * @param int n
 	 * @return: List<Card>
@@ -34,7 +46,7 @@ public class Deck {
 	public void deal(int n, User user){
 		//toIndex of subList is exclusive. toIndex will be 1 less than n
 		List<Card> temp = this.deck.subList(0, n);
-		user.addCards(temp);
+		user.addCardsHand(temp);
 		remove(temp);
 		}
 	/*remove() removes specified cards from the deck
