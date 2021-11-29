@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
@@ -11,20 +12,15 @@
    <children>
       <AnchorPane prefHeight="800.0" prefWidth="800.0" style="-fx-border-color: black; -fx-background-color: white;">
          <children>
-            <Label alignment="CENTER" layoutX="307.0" layoutY="127.0" prefHeight="105.0" prefWidth="261.0" text="Royal Conflict">
+            <ImageView fitHeight="800.0" fitWidth="806.0">
+               <image>
+                  <Image url="@../../../images/table_felt_background.PNG" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="252.0" layoutY="125.0" prefHeight="105.0" text="Royal Conflict" textAlignment="CENTER" textFill="#2200ff" underline="true">
                <font>
-                  <Font name="Imprint MT Shadow" size="40.0" />
+                  <Font name="Cambria Bold Italic" size="48.0" />
                </font>
-               <textFill>
-                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
-                     <stops>
-                        <Stop color="#403838" />
-                        <Stop color="BLACK" offset="0.007662835249042145" />
-                        <Stop color="BLACK" offset="0.9961685823754789" />
-                        <Stop color="BLACK" offset="1.0" />
-                     </stops>
-                  </RadialGradient>
-               </textFill>
             </Label>
             <Button fx:id="rulesButton" layoutX="138.0" layoutY="500.0" mnemonicParsing="false" onAction="#rules" prefHeight="125.0" prefWidth="213.0" style="-fx-background-color: red;" text="Rules">
                <font>
