@@ -2,7 +2,7 @@
 Repo for team: rEach 4 help
 
 Import Instructions:
-Go to the RoyalConflict github page (https://github.com/UTSA-CS-3443/RoyalConflict) and click the green "Code" button. 
+Go to the RoyalConflict github page (https://github.com/UTSA-CS-3443/RoyalConflict) to the "master" branch and click the green "Code" button. 
 Choose the HTTPS option and copy the provided URL(https://github.com/UTSA-CS-3443/RoyalConflict.git).
 Open eclipse 
 Once Eclipse is open go to the "File" drop down menu in the upper left hand corner of the eclipse window and select "Import...".
