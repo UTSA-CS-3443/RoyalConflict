@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.CreditsController">
+   <children>
+      <AnchorPane prefHeight="800.0" prefWidth="800.0" style="-fx-border-color: black; -fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="800.0" fitWidth="800.0">
+               <image>
+                  <Image url="@../../../images/table_felt_background.PNG" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="-8.0" layoutY="179.0" prefHeight="124.0" prefWidth="800.0" text="Team: rEach 4 help" textAlignment="CENTER" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="Cambria Italic" size="72.0" />
+               </font>
+            </Label>
+            <Label fx:id="creditsLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="191.0" layoutY="275.0" lineSpacing="25.0" prefHeight="346.0" prefWidth="419.0" text="label" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman" size="30.0" />
+               </font>
+            </Label>
+            <Button fx:id="menuButton" layoutX="610.0" layoutY="14.0" mnemonicParsing="false" onAction="#menu" prefHeight="87.0" prefWidth="175.0" style="-fx-background-color: red;" text="Menu">
+               <font>
+                  <Font name="Freestyle Script" size="40.0" />
+               </font>
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="BLACK" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Button>
+            <Label alignment="CENTER" layoutX="-2.0" layoutY="672.0" prefHeight="124.0" prefWidth="804.0" text="Thanks for playing!" textFill="#d01a53">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="71.0" />
+               </font>
+               <padding>
+                  <Insets bottom="25.0" />
+               </padding>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
