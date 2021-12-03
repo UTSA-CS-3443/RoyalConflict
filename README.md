@@ -1,5 +1,5 @@
 # RoyalConflict
-Repo for team: rEach 4 help\
+Repo for team: rEach 4 help
 # Description
 RoyalConflict is a class team project developed to simulate the card game War. 
 The app currently has four functioning pages: the main menu page, the rules page, the play page, and the credits page.  The main menu page allows users to go to the rules, play, or credits page.  The rules page tells the rules of the card game of war.  The play page allows the user to play the card game of war.  Lastly, the credits page displays the team members who developed the Royal Conflict application
